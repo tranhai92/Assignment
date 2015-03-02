@@ -2,7 +2,7 @@
 Imports System.Data.SqlClient
 
 Public Class Frmhoadon
-    Dim data As New SqlConnection("Data Source=.;Initial Catalog=haitdpk00138;Integrated Security=True")
+    Dim data As New SqlConnection("workstation id=Hai1234.mssql.somee.com;packet size=4096;user id=Hai123;pwd=Hai18111992;data source=Hai1234.mssql.somee.com;persist security info=False;initial catalog=Hai1234")
     Private Sub chaydulieu()
         data.Open()
         Dim load As New SqlCommand("select * from hoadon", data)
